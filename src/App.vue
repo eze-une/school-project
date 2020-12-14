@@ -1,11 +1,19 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
-</template>
+    <Header />
+    <p id="space"></p>
 
+  </div>
+</template>
+<script>
+import Header from "./components/Header";
+export default {
+  name: "App",
+  components: {
+    Header,
+  },
+};
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -13,18 +21,22 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: #f0f0f0;
 }
 
 #nav {
-  padding: 30px;
+  padding: 0px;
 }
 
 #nav a {
   font-weight: bold;
   color: #2c3e50;
+  text-decoration: none;
 }
-
+#space{
+  margin: 10px;
+}
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #5934dd;
 }
 </style>
