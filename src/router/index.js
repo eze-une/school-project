@@ -21,6 +21,16 @@ const routes = [
     name: "Proflie",
     component: () => import("../views/Profile.vue"),
   },
+  {
+    path: "/news",
+    name: "News",
+    component: () => import("../views/Newsgit.vue"),
+  },
+  {
+    path: "/classes",
+    name: "Classes",
+    component: () => import("../views/Classes.vue"),
+  },
 ];
 
 const router = createRouter({
