@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-regular-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
@@ -15,11 +16,22 @@
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0"
+=======
+    "axios": "^0.21.0",
+    "core-js": "^3.6.5",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0"
+>>>>>>> 5fa7dadf1b836dfa17b8001bb0dc163fed64d2c7
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
+<<<<<<< HEAD
+=======
+    "@vue/cli-plugin-vuex": "^4.5.9",
+>>>>>>> 5fa7dadf1b836dfa17b8001bb0dc163fed64d2c7
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
     "babel-eslint": "^10.1.0",
@@ -32,13 +44,21 @@
       "node": true
     },
     "extends": [
+<<<<<<< HEAD
       "plugin:vue/vue3-essential",
+=======
+      "plugin:vue/strongly-recommended",
+>>>>>>> 5fa7dadf1b836dfa17b8001bb0dc163fed64d2c7
       "eslint:recommended"
     ],
     "parserOptions": {
       "parser": "babel-eslint"
+<<<<<<< HEAD
     },
     "rules": {}
+=======
+    }
+>>>>>>> 5fa7dadf1b836dfa17b8001bb0dc163fed64d2c7
   },
   "browserslist": [
     "> 1%",
