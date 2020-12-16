@@ -15,7 +15,7 @@ export default {
         height: 10vh;
         width: auto;
         padding: 10px;
-        background-color: #5934dd;
+        background-color: #540588;
         color: #fff
     }
 </style>
