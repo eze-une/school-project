@@ -1,13 +1,10 @@
 <template>
-    <div>help</div>
+  <div>help</div>
 </template>
-
 <script>
 export default {
-    name:'Profile'
-}
+  name: "Profile",
+};
 </script>
-
 <style scoped>
-
 </style>
