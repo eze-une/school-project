@@ -2,17 +2,17 @@
     <div class="row">
         <div class="leftcolumn">
             <div class="card left">
-                <p>Classes</p>
-                <p>Attendence</p>
-                <p>Mark List</p>
-                <p>Assigments</p>
-                <p>Submissions</p>
-                <p>Teaching material</p>
+                <button>Classes</button>
+                <button v-on:click="change">Attendence</button>
+                <button>Mark List</button>
+                <button>Assigments</button>
+                <button>Submissions</button>
+                <button>Teaching material</button>
             </div>
         </div>
         <div class="rightcolumn">
             <div class="card">
-                <h1>content</h1>
+                <h1>{{message}}</h1>
             </div>
         </div>
         
@@ -21,7 +21,15 @@
 
 <script>
 export default {
-    name: 'Classescomp'
+    name: 'Classescomp',
+    data:{
+        message: "content"
+    },
+    methods:{
+        change:function(){
+            this.message= "attendece content"
+        }
+    }
 }
 </script>
 
