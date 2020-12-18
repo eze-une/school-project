@@ -1,8 +1,8 @@
 <template>
-    <div class="classes">
-        <Classescomp />
-        <Footer />
-    </div>
+  <div class="classes">
+    <Classescomp />
+    <Footer />
+  </div>
 </template>
 
 <script>

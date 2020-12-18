@@ -14,7 +14,9 @@
         minima odit illum ullam ex aliquid error ipsa. Autem, ipsa? Corrupti
         quod distinctio nulla optio possimus ipsum odio eius laudantium debitis!
       </p>
-      <button class="button btn">Sign Up</button>
+      <button class="button btn">
+        Sign Up
+      </button>
     </div>
   </div>
 </template>
