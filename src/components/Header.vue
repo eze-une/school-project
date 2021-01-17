@@ -27,8 +27,13 @@
         </router-link>
       </li>
       <li>
-        <router-link to="/profile">
-          PROFILE
+        <router-link to="/auth/login">
+          Login
+        </router-link>
+      </li>
+      <li>
+        <router-link to="/auth/register">
+          Register
         </router-link>
       </li>
     </ul>
