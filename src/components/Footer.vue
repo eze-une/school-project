@@ -1,7 +1,7 @@
 <template>
-  <div class="footer">
+  <footer>
     <h2>this footer goes every where</h2>
-  </div>
+  </footer>
 </template>
 
 <script>
@@ -11,8 +11,8 @@ export default {
 </script>
 
 <style scoped>
-    .footer{
-        min-height: 10vh;
+    footer{
+        min-height:7vh;
         width: auto;
         padding: 10px;
         background-color: #2b0446;

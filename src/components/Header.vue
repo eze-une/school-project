@@ -1,8 +1,10 @@
 <template>
-  <div class="header">
+  <nav>
     <ul>
       <li id="logo">
-        TEAMER
+        <router-link to="/">
+          TEAMER
+        </router-link>
       </li>
       <li>
         <router-link to="/">
@@ -30,8 +32,7 @@
         </router-link>
       </li>
     </ul>
-    <router-view />
-  </div>
+  </nav>
 </template>
 
 <script>
@@ -40,26 +41,37 @@ export default {
 };
 </script>
 
-<style scoped>
-.header {
-  margin: auto;
-  height: 50px;
-  text-align: center;
-  background: #fff;
+<style lang="scss" scoped>
+nav {
+  background-color: #f0f0f0;
+  box-shadow: 0px 1px 5px #999;
+  margin-bottom: 5px;
 }
 ul {
   display: flex;
-  list-style: none;
+  align-items: stretch;
+  flex-grow: 1;
 }
 li {
-  padding: 2px 10px;
+  display: inline;
+  text-align: center;
+  &:hover {
+    color: #f0f0f0;
+    background-color: #e4e4e4;
+  }
+  a {
+    display: inline-block;
+    padding: 1rem;
+    vertical-align: bottom;
+    font-weight: bold;
+  }
 }
 #logo {
   margin-right: auto;
-  font-size: 2rem;
   color: #311b7e;
-}
-li:hover{
-   color: #7656e7;
+  a {
+    font-size: 1.5rem;
+    padding: 0.75rem 1rem;
+  }
 }
 </style>

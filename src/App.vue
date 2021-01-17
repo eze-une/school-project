@@ -1,43 +1,25 @@
 <template>
-  <div id="nav">
+  <div class="main">
     <Header />
+    <div class="main-content">
+      <router-view />
+    </div>
+    <Footer />
   </div>
 </template>
 <script>
+import Footer from './components/Footer.vue';
 import Header from "./components/Header";
 export default {
   name: "App",
   components: {
-    Header,
+    Header, 
+    Footer,
   },
 };
 </script>
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  background-color: #f0f0f0;
-}
-
-#nav {
-  padding: 0px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-  text-decoration: none;
-}
-#space{
-  margin: 10px;
-}
-#nav a.router-link-exact-active {
-  color: #5934dd;
-}
-#nav a.router-link-hover{
-   color: #7656e7;
-}
+<style lang="scss">
+//global imports
+@import "./assets/scss/main.scss";
+@import "./assets/scss/resets.scss";
 </style>

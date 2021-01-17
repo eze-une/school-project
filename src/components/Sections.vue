@@ -35,15 +35,19 @@ export default {
   display: flex;
   justify-content: space-evenly;
   padding: 10px;
-  background-color: #fffefe;
+  background-color: #311b7e;
   height: 50vh;
 }
 .sect {
   padding: 10px;
   width: 33.3%;
+  color: #fff;
+
   /* border-left: 1px black solid; */
 }
 .title {
-  font-size: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #7656e7;
 }
 </style>
