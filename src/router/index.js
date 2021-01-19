@@ -30,6 +30,28 @@ const routes = [
     path: "/classes",
     name: "Classes",
     component: () => import("../views/Classes.vue"),
+    children:[
+      {
+        path: '/classlist',
+        name: 'ClassesList',
+        component: ()=>import("../components/right-column/ClassList")
+      },
+      {
+        path: '/marklist',
+        name: 'MarkList',
+        component: ()=>import("../components/right-column/MarkList")
+      },
+      {
+        path: '/submissions',
+        name: 'Submissions',
+        component:()=> import("../components/right-column/Submissions")
+      },
+      {
+        path: '/assigments',
+        name: 'Assigments',
+        component:()=> import("../components/right-column/Assigments")
+      }
+    ]
   },
 ];
 

@@ -12,10 +12,10 @@ export default {
 
 <style scoped>
     .footer{
-        min-height: 10vh;
+        height: 30vh;
         width: auto;
         padding: 10px;
-        background-color: #2b0446;
+        background-color: #403e41;
         color: #fff
     }
 </style>

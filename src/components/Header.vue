@@ -2,7 +2,9 @@
   <div class="header">
     <ul>
       <li id="logo">
-        TEAMER
+        <router-link to="/">
+          TEAMER
+        </router-link>
       </li>
       <li>
         <router-link to="/">
@@ -45,7 +47,7 @@ export default {
   margin: auto;
   height: 50px;
   text-align: center;
-  background: #fff;
+  background: rgb(255, 255, 255);
 }
 ul {
   display: flex;

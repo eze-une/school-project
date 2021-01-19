@@ -35,7 +35,8 @@ export default {
   display: flex;
   justify-content: space-evenly;
   padding: 10px;
-  background-color: #fffefe;
+  background-color: #7656e7;
+  color: #fffefe;
   height: 50vh;
 }
 .sect {
@@ -45,5 +46,6 @@ export default {
 }
 .title {
   font-size: 20px;
+  text-decoration-line:underline;
 }
 </style>
