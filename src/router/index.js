@@ -53,6 +53,24 @@ const routes = [
       }
     ]
   },
+  {
+    path: "/auth",
+    name: "Auth",
+    redirect: { name: "login" },
+    component: () => import("@/views/Auth.vue"),
+    children: [
+      {
+        path: "login",
+        name: "login",
+        component: () => import("@/pages/Login.vue")
+      },
+      {
+        name: "register",
+        path: "register",
+        component: () => import("@/pages/Register.vue")
+      }
+    ]
+  }
 ];
 
 const router = createRouter({
